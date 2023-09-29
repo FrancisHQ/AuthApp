@@ -29,7 +29,7 @@ export class LoginPageComponent {
 
   setFormValue(): any{
     return this.fb.group({
-      username:    ['', [ Validators.required, Validators.email ]],
+      username:    ['', [ Validators.email, Validators.required ]],
       password: ['', [ Validators.required, Validators.minLength(6) ]],
     });
   }

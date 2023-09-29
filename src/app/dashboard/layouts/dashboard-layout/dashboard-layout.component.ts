@@ -9,7 +9,6 @@ import { AuthService } from 'src/app/auth/service/auth.service';
 })
 export class DashboardLayoutComponent implements OnInit {
   private authService = inject( AuthService );
-
   constructor(private router: Router) { }
 
   ngOnInit(): void {

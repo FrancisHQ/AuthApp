@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./auth-layout.component.css']
 })
 export class AuthLayoutComponent {
-
+  public sidebarItems = [
+    { label: 'Ingresar', icon: 'login', url: './login-in'},
+  ]
 }
